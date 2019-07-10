@@ -17,6 +17,6 @@ mod tests {
 
     #[test]
     fn returns_twice_of_positive_numbers() {
-        assert_eq!(4, 4);
+        assert_eq!(times_two(2), 4, "we are testing times_two with 2 and 4");
     }
 }
